@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <title>Dea_linktree</title>
+    </head>
+    <body>
+        <div class="container">
+            <!---Profil-->
+            <div class="profile">
+                <img src="poto.jpg" class="image" alt="" />
+                <p class="name">Dea</p>
+                <p class="name">Tak kenal maka??</p>
+            </div>
+
+        <!---link menu-->
+            <div class="link">
+                <a href="https://www.instagram.com/dea_aniped/" target="_blank" class="ig"><i class="bi bi-instagram"></i> Instagram</a>
+                <a href="https://www.youtube.com/@deaaniped5862/channels" target="_blank" class="ytb"><i class="bi bi-youtube"></i> Youtube</a>
+                <a href="https://api.whatsapp.com/send?phone=6285719882478&text=Halo%20dea%20" target="_blank" class="wa"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+            </div>
+
+            <!---footer-->
+            <footer class="footer">
+                <p>made by <strong class="strong">Dea</strong></p>
+            </footer>
+        </div>
+
+        <!---js--->
+        <script>
+            ScrollReveal({ reset: true });
+            ScrollReveal().reveal(".container");
+            ScrollReveal().reveal(".profile", { delay: 1000 });
+            ScrollReveal().reveal(".link", { delay: 1400 });
+            ScrollReveal().reveal(".ig", { delay: 1800 });
+            ScrollReveal().reveal(".ytb", { delay: 2100 });
+            ScrollReveal().reveal(".wa", { delay: 2500 });
+            ScrollReveal().reveal(".git", { delay: 2900 });
+            ScrollReveal().reveal(".footer", { delay: 3300 });
+        </script>
+    </body>
+</html>
